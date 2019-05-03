@@ -25,6 +25,14 @@ class ParkingLot{
 
 };
 
+class HashEntry {
+
+};
+
+class HashMap {
+
+};
+
 int main(){
 
     return 0;
