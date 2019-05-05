@@ -229,8 +229,7 @@ void HashTable::printHashTable()
 int main()
 {
 
-   // // create an array of 25 car names
-   // std::string cars[25] = {"Inception", "Shawshank Redemption", "The Matrix", "The Godfather", "The Godfather: Part II", "The Dark Knight", "Pulp Fiction", "12 Angry Men", "Schindler's List", "The Good the Bad and the Ugly", "The Lord of the Rings: The Return of the King", "Fight Club", "The Lord of the Rings: The Fellowship of the Ring", "Star Wars: Episode V - The Empire Strikes Back"};
+
 
    // // create a reference of HashTable class
    // HashTable ht;
