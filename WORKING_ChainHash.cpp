@@ -7,7 +7,9 @@ using namespace std;
 
 int main(){
 
-	const unsigned int length = 30;
+	const unsigned int length = 25;
+	srand(time(0));
+
 	int a[length];
 		for (int i=0; i<length; i++) {
 			a[i] = rand()%100;
@@ -17,17 +19,14 @@ int main(){
 			cout << a[i] <<endl;
 		}
 
-	// insert the keys into the hash table
-	Hash h(30); // 7 is count of buckets in
-				// hash table
-	for (int i = 0; i < length; i++)
+	Hash h(30); // # = count of buckets
+
+	for (int i = 0; i < length; i++){
 		h.insertItem(a[i]);
+	}
+
 
 	h.displayHash();
-
-	//h.deleteItem(18);
-
-	//h.displayHash();
 
  return 0;
 }
